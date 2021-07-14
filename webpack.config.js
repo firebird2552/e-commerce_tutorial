@@ -5,11 +5,11 @@ module.exports = {
     output: { /* we are going to be defining where webpack send the file it creates when we run build */
         path: path.resolve(__dirname, 'dist'), // same as above except instead of looking for our app we are creating the location our bundle.js file will be stored in
         filename: 'bundle.js', // names the file that is created when webpack builds
-        publicPath: '/public/', // tells webpack where our public assets are served from
+        publicPath: '/', // tells webpack where our public assets are served from
     },
     resolve: {
         // we will be defining what file types webpack can work with
-        extensions: ['.js', 'jsx'] //  an array of filetype extensions
+        extensions: ['.js', '.jsx'] //  an array of filetype extensions
     },
     devServer: {
         // defines anything specific to the webpack development server
