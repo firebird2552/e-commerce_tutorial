@@ -9,7 +9,7 @@ module.exports = {
     },
     resolve: {
         // we will be defining what file types webpack can work with
-        extensions: ['.js', 'jsx'] //  an array of filetype extensions
+        extensions: ['.js', '.jsx'] //  an array of filetype extensions
     },
     devServer: {
         // defines anything specific to the webpack development server
