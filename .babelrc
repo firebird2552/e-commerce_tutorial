@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env", // tells babel what environment we are using.
+      {
+        "targets": {
+          // tells babel what our target environment(s) is/are.
+          "node": "current" // tells babel that we are targeting node and to use the current installed version.
+        }
+      }
+    ], // an array of the preset-env loader and its options
+    "@babel/preset-react" // tells babel we are going to using react.
+  ] // an array of packages used as presets and any options for those packages.
+}
